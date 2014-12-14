@@ -152,11 +152,11 @@ mean(imputedSteps)
 median(imputedSteps)
 ```
 
-From the new set of data, we can conclude
+From the new set of data, we can conclude:
 
 - The mean for the imputed data is approximately 10766.  That is higher than the value of 9354 in the first set.  
 - The median is also approximately 10766.  As with the mean, this is also higher than the value of 10395 from the first set.
-- OVerall, imputing the missing values seems to reduce the skewness in the data.<br><br>
+- Overall, imputing the missing values seems to reduce the skewness in the data.<br><br>
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
