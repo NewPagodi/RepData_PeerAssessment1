@@ -203,7 +203,9 @@ hist(imputedSteps,main="Steps Frequency",xlab="Steps",breaks=10)
 
 ![](PA1_template_files/figure-html/unnamed-chunk-13-1.png) 
 
-Compared to the earlier histogram, this one shows significantly fewer days with zero steps.  Finally, I'll compute the mean and median for the number of steps with the new data set.
+Compared to the earlier histogram, this one shows significantly fewer days with zero steps.  
+
+Finally, I'll compute the mean and median for the number of steps with the new data set.
 
 
 ```r
@@ -225,9 +227,7 @@ median(imputedSteps)
 From the new set of data, we can conclude
 
 - The mean for the imputed data is approximately 10766.  That is higher than the value of 9354 in the first set.  
-
 - The median is also approximately 10766.  As with the mean, this is also higher than the value of 10395 from the first set.
-
 - OVerall, imputing the missing values seems to reduce the skewness in the data.<br><br>
 
 ## Are there differences in activity patterns between weekdays and weekends?
